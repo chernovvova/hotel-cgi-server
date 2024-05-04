@@ -6,11 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="cgi-bin/view.py" method="post">
-        Имя <input type="text" name="firstname"> 
-        Фамилия <input type="text" name="lastname">
-        Паспорт <input type="text" name="passport">
-        <input type="submit">
+    <a href="./pages/form.html">
+        <button>
+            Добавить клиента
+        </button>
+    </a>
+    <form action="./cgi-bin/view_clients.py" method="post">
+        <button type="submit">Список клиентов</button>
     </form>
 </body>
 </html>

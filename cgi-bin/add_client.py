@@ -22,13 +22,9 @@ print("""<!DOCTYPE HTML>
 <title>Обработка книг </title>
 </head>
 <body>""")
-print("<h1>Клиенты: </h1>\n")
-
-cur.execute("SELECT * FROM client")
-for client in cur.fetchall():
-    print(f"<p>{client[0]}  {client[1]}  {client[2]}</p>\n")
-con.close()
+print("<div>Клиент добавлен в базу данных</div>")
 print("""</body> </html>""")
+con.close()
 
 
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<room>
+	<record>
+		<room_number>501</room_number>
+		<type>triple</type>
+		<category>deluxe</category>
+		<cost_per_day>15000</cost_per_day>
+	</record>
+	<record>
+		<room_number>502</room_number>
+		<type>family</type>
+		<category>deluxe</category>
+		<cost_per_day>20000</cost_per_day>
+	</record>
+	<record>
+		<room_number>503</room_number>
+		<type>double</type>
+		<category>deluxe</category>
+		<cost_per_day>10000</cost_per_day>
+	</record>
+	<record>
+		<room_number>504</room_number>
+		<type>twin</type>
+		<category>deluxe</category>
+		<cost_per_day>10000</cost_per_day>
+	</record>
+</room>
