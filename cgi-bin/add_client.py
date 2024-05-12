@@ -10,6 +10,10 @@ passport = form.getfirst("passport", "не задано")
 con = sqlite3.connect('hotel.db')
 
 cur = con.cursor()
+sql1 = "SELECT id FROM room"
+cur.execute(sql1)
+room_list = [cur.fetchall()]
+
 sql = "INSERT INTO client(firstname, lastname, passport) VALUES (?, ?, ?)"
 cur.execute(sql, (firstname, lastname, passport))
 con.commit()

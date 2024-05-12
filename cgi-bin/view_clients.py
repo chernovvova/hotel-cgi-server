@@ -12,7 +12,7 @@ print("""<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Обработка книг </title>
+<title>Клиенты </title>
 </head>
 <body>""")
 print("""<table>

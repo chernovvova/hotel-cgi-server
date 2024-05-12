@@ -1,15 +1,8 @@
 import sqlite3
 
-con = sqlite3.connect("./hotel.db")
+con = sqlite3.connect("hotel.db")
 
 cur = con.cursor()
-
-# cur.execute("DROP TABLE client")
-# cur.execute("DROP TABLE room")
-# cur.execute("DROP TABLE reservation")
-# cur.execute("DROP TABLE bill")
-
-
 
 cur.execute("""CREATE TABLE IF NOT EXISTS client(
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
